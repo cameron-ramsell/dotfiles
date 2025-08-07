@@ -18,6 +18,12 @@ return {
         input = {
           keys = {
             ["<Esc>"] = { "close", mode = { "n", "i" } },
+            ["<ins>"] = { "toggle_focus", mode = { "n", "i" } }
+          }
+        },
+        list = {
+          keys = {
+            ["<ins>"] = { "toggle_focus", mode = { "n", "i" } }
           }
         }
       }
